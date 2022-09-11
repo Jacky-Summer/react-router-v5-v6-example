@@ -12,6 +12,10 @@ export default function Category() {
         <div>
           <Link to="/category/b">跳转 CategoryB</Link>
         </div>
+
+        <div>
+          <Link to="a">Link的 to 属性有无`/`测试</Link>
+        </div>
       </div>
 
       <Switch>
