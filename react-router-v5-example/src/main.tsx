@@ -5,6 +5,7 @@ import Menu from './components/Menu'
 import Home from './components/Home'
 import Detail from './components/Detail'
 import List from './components/List'
+import Category from './components/Category'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <Route component={Home} path="/home"></Route>
         <Route component={List} path="/list"></Route>
         <Route component={Detail} path="/detail"></Route>
+        <Route component={Category} path="/category"></Route>
       </Switch>
     </BrowserRouter>
   </React.StrictMode>

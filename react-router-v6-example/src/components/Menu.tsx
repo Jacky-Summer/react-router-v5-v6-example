@@ -12,6 +12,9 @@ export default function Menu() {
       <div>
         <Link to="/list">跳转 List</Link>
       </div>
+      <div>
+        <Link to="/category">跳转 Category 主页面</Link>
+      </div>
     </div>
   )
 }
