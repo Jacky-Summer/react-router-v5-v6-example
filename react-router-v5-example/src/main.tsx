@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <Switch>
         <Route component={Home} path="/home"></Route>
         <Route component={List} path="/list"></Route>
-        <Route component={Detail} path="/detail"></Route>
+        <Route component={Detail} path="/detail/:id"></Route>
         <Route component={Category} path="/category"></Route>
       </Switch>
     </BrowserRouter>

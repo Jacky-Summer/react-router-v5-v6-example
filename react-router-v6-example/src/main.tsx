@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <Routes>
         <Route element={<Home />} path="/home"></Route>
         <Route element={<List />} path="/list"></Route>
-        <Route element={<Detail />} path="/detail"></Route>
+        <Route element={<Detail />} path="/detail/:id"></Route>
         <Route element={<Category />} path="category">
           {/* children 写法嵌套子路由，path是相对路径 */}
           <Route element={<CategoryA />} path="a"></Route>
