@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Menu from './components/Menu'
 import Home from './components/Home'
 import Detail from './components/Detail'
@@ -17,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <Route component={List} path="/list"></Route>
         <Route component={Detail} path="/detail/:id"></Route>
         <Route component={Category} path="/category"></Route>
+        <Redirect from="/404" to="/home" />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>

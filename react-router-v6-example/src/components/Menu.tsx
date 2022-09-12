@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, NavLink } from 'react-router-dom'
 
 export default function Menu() {
   const navigate = useNavigate()
@@ -9,7 +9,7 @@ export default function Menu() {
         <Link to="/home">跳转 Home</Link>
       </div>
       <div>
-        <Link to="/detail/1">跳转 Detail</Link>
+        <NavLink to="/detail/1">跳转 Detail</NavLink>
       </div>
       <div>
         <Link to="/list">跳转 List</Link>

@@ -4,7 +4,9 @@ export default function Category() {
   return (
     <div>
       <div>
-        <Link to="a">跳转 CategoryA</Link>
+        <Link to="a" target="_blank">
+          跳转 CategoryA
+        </Link>
       </div>
       <div>
         <Link to="b">跳转 CategoryB</Link>
